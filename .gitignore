@@ -1,0 +1,13 @@
+# Never commit real database credentials
+backend/api/config.php
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Old Node.js backend artifacts (project migrated to PHP + MySQL)
+node_modules/
+.env
